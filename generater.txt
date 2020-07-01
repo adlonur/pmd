@@ -1,0 +1,15 @@
+xjc -p com.tata.java.generated -d C:\Users\adil\eclipse-workspace\JavaDeneme\src\com\adil C:\Users\adil\eclipse-workspace\JavaDeneme\src\com\adil\ProductPurchaseRequest.xsd -extension -b C:\Users\adil\eclipse-workspace\JavaDeneme\src\com\adil\Product.episode
+
+
+
+xjc -p com.tata.java.generated -d C:\Users\adil\eclipse-workspace\JavaDeneme\src\com\adil C:\Users\adil\eclipse-workspace\JavaDeneme\src\com\adil\shiporder.xsd
+
+
+
+
+
+
+
+xjc -p com.tata.java.generatedtwo -d C:\Users\adil\eclipse-workspace\JavaDeneme\src -episode C:\Users\adil\eclipse-workspace\JavaDeneme\src\com\adil\product.episode C:\Users\adil\eclipse-workspace\JavaDeneme\src\com\adil\Product.xsd
+
+xjc -p com.tata.java.generatedtwotwo -d C:\Users\adil\eclipse-workspace\JavaDeneme\src C:\Users\adil\eclipse-workspace\JavaDeneme\src\com\adil\ProductPurchaseRequest.xsd -extension -b C:\Users\adil\eclipse-workspace\JavaDeneme\src\com\adil\product.episode
